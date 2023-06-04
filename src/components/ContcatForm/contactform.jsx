@@ -5,7 +5,8 @@ import css from './contactform.module.css';
 import { useSelector } from 'react-redux';
 import { useDispatch } from 'react-redux';
 // import { addContact } from 'components/redux/actions/actions';
-import { addContact, getContacts } from '../../redux/slice/contactsSlice';
+import { getContacts } from '../../redux/slice/contactsSlice';
+import { addContact } from '../../redux/operation';
 
 
 export default function ContactForm() {
