@@ -16,7 +16,7 @@ import { filterReducer } from '../redux/slice/filterSplice';
 
 export const store = configureStore({
   reducer: {
-    contacts: persistReducer(persistConfig, contactsReducer),
+    contacts: contactsReducer,
     filter: filterReducer,
   },
 });
